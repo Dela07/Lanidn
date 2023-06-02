@@ -1,0 +1,38 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .container h1 {
+    text-align: center;
+  }
+  
+  .container form div {
+    margin-bottom: 10px;
+  }
+  
+  .container form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .container form input[type="text"],
+.container form input[type="date"]{
+  width: 100%;
+  padding: 5px;
+}
+
+.container form button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  color: #FFF;
+  border: none;
+  cursor: pointer;
+}
+
+.container form button[type="submit"]:hover {
+  background-color: #555;
+}
