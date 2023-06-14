@@ -36,3 +36,17 @@
 .container form button[type="submit"]:hover {
   background-color: #555;
 }
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid black;
+}
+body {
+  background-color: #f2f2f2;
+  background-image: url('ruta/de/la/imagen.jpg');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
